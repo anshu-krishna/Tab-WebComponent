@@ -1,3 +1,9 @@
+/*
+Author: Anshu Krishna
+Contact: anshu.krishna5@gmail.com
+Date: 13-Nov-2018
+Description: This library provides three customElements that together can create a tabbed UI.
+*/
 class TabContainer extends HTMLElement {
 	static get template() {
 		if (typeof TabContainer._template == "undefined") {
